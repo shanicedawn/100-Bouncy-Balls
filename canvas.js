@@ -47,7 +47,6 @@ function animate(){
 
 animate();
 
-console.log(25)
 
 
 
