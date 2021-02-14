@@ -46,15 +46,3 @@ function animate(){
 }
 
 animate();
-
-
-
-
-
-
-
-
-
-
-
-
