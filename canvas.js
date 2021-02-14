@@ -11,8 +11,9 @@ function Circle(x,y,dx,dy,radius) {
   this.draw = function(){
     circle.beginPath();
     circle.arc(this.x,this.y,this.radius, 0, Math.PI * 2, false);
-    circle.strokeStyle = 'red';
+    circle.strokeStyle = 'yellow';
     circle.stroke();
+    circle.fill();
   }
   this.update = function(){
     if(this.x + this.radius > innerWidth || this.x - this.radius < 0) {
